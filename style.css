@@ -1,0 +1,85 @@
+
+body{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(95, 209, 234);
+    display: flex;
+    justify-content: center;
+}
+main{
+    height: 420px;
+    width: 320px;
+    margin-top: 14px;
+    border-radius: 20px;
+    background-color: rgba(8, 32, 65, 0.835);
+   
+    /* display:  flex;
+    justify-content: center; */
+    
+}
+.input{
+    height: 40px;
+    width: 80%;
+margin: auto;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: end;
+}
+.section_btn{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.input_div{
+    display: flex;
+    justify-content: center;
+    
+}
+.Button_section{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(65, 59, 59);
+    color: greenyellow;
+    cursor: pointer;
+    border: 2px solid gray;
+   
+    
+
+    
+}
+.btn:hover{
+    background-color: rgb(2, 2, 2);
+}
+.btn-1:hover{
+    background-color: rgb(2, 2, 2);
+}
+.btn-1{
+    width: 50px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(65, 59, 59);
+    color: greenyellow;
+    cursor: pointer;
+    color: white;
+    box-shadow: 1px .5px 4px lightgreen;
+    
+}

@@ -11,7 +11,7 @@ main{
     width: 320px;
     margin-top: 14px;
     border-radius: 20px;
-    background-color: rgba(8, 32, 65, 0.835);
+    background-color: #021121;
    
     /* display:  flex;
     justify-content: center; */
@@ -51,35 +51,36 @@ margin: auto;
 .btn{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 40%;
     font-size: 20px;
     font-weight: bold;
-    background-color: rgb(65, 59, 59);
+    background-color:#021021;
     color: greenyellow;
     cursor: pointer;
     border: 2px solid gray;
+    box-shadow: 1px 1px 3px 4px #1b028b;
    
     
 
     
 }
 .btn:hover{
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(48, 46, 46);
 }
 .btn-1:hover{
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(39, 38, 38);
 }
 .btn-1{
     width: 50px;
     height: 50px;
     border: 2px solid gray;
-    border-radius: 100%;
+    border-radius: 40%;
     font-size: 20px;
     font-weight: bold;
-    background-color: rgb(65, 59, 59);
+    background-color:#021021;
     color: greenyellow;
     cursor: pointer;
     color: white;
-    box-shadow: 1px .5px 4px lightgreen;
+    box-shadow: 1px 1px 3px 4px #1b028b;
     
 }
